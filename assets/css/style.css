@@ -1,0 +1,137 @@
+body {
+  font-family: "Gaegu", cursive;
+  font-weight: 800;
+  text-align: center;
+  background: linear-gradient(45deg, rgba(230, 101, 115, 0.5) 0%, rgba(230, 101, 115, 0.5) 14.286%, rgba(197, 98, 111, 0.5) 14.286%, rgba(197, 98, 111, 0.5) 28.572%, rgba(165, 94, 106, 0.5) 28.572%, rgba(165, 94, 106, 0.5) 42.858%, rgba(132, 91, 102, 0.5) 42.858%, rgba(132, 91, 102, 0.5) 57.144%, rgba(99, 87, 98, 0.5) 57.144%, rgba(99, 87, 98, 0.5) 71.43%, rgba(67, 84, 93, 0.5) 71.43%, rgba(67, 84, 93, 0.5) 85.716%, rgba(34, 80, 89, 0.5) 85.716%, rgba(34, 80, 89, 0.5) 100.002%), linear-gradient(135deg, #e1b0be 0%, #e1b0be 14.286%, #cb9ec6 14.286%, #cb9ec6 28.572%, #b48bce 28.572%, #b48bce 42.858%, #9e79d6 42.858%, #9e79d6 57.144%, #8866de 57.144%, #8866de 71.43%, #7154e6 71.43%, #7154e6 85.716%, #5b41ee 85.716%, #5b41ee 100.002%);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  font-size: 4.5em;
+  margin: 30px 0px 0px 0px;
+  text-transform: uppercase;
+  color: azure;
+}
+
+@media screen and (max-width: 420px) {
+  h1 {
+    font-size: 3.5em;
+  }
+}
+
+p {
+  font-size: 1.5em;
+  margin: 10px 0px 0px 0px;
+  color: azure;
+}
+
+.instructions {
+  font-size: 1.5em;
+  letter-spacing: 10px;
+  margin-left: 12px;
+}
+
+@media screen and (max-width: 420px) {
+  .instructions {
+    font-size: 1em;
+    letter-spacing: 0px;
+  }
+}
+
+span {
+  font-size: 1.5em;
+  margin: 10px 10px;
+  color: azure;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  position: absolute;
+  left: 50%;
+  top: 30%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width: 420px) {
+  .container {
+    top: 37%;
+  }
+}
+
+.given-number {
+  font-size: 2.5em;
+}
+
+.wins-losses {
+  margin-left: 25px;
+}
+
+.wins {
+  margin-top: 10px;
+}
+
+.losses {
+  margin-top: 5px;
+}
+
+.buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width: 420px) {
+  .buttons {
+    top: 55%;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .images {
+    height: 80%;
+    margin-left: 5px;
+  }
+}
+
+.total {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  position: absolute;
+  left: 50%;
+  top: 70%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-size: 1.5em;
+}
+
+@media screen and (max-width: 420px) {
+  #total-amount {
+    font-size: 3em;
+    margin-left: 30px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <title>unit-4-game</title>
+    <meta charset="utf-8" />
+    <meta name="description" content="unit-4-game" />
+    <meta name="keywords" content="javascript, jquery, game, web developer" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Bangers|Freckle+Face|Gaegu|Gochi+Hand|Luckiest+Guy|Roboto&display=swap" rel="stylesheet">
+    <script
+      src="https://code.jquery.com/jquery-latest.min.js"
+      type="text/javascript"
+    ></script>
+  </head>
+  <body onload="startNewRound()">
+    <div class="title"><h1>Crystal Collector</h1></div>
+    <div class="instructions">
+      <p>
+        Try to match the number
+      </p>
+    </div>
+    <div class="container">
+        <div class="given-number"><span>39</span></div>
+        <div class="wins-losses"></div>
+            <div class="wins"><span>Wins: </span>
+            <div class="losses"><span>Losses: </span></div>
+        </div>
+    </div>
+    <div class="buttons">
+      <div class="button1"><img class="images" src="./assets/images/gem1.png"></img></div>
+      <div class="button2"><img class="images" src="./assets/images/gem2.png"></img></div>
+      <div class="button3"><img class="images" src="./assets/images/gem3.png"></img></div>
+      <div class="button4"><img class="images" src="./assets/images/gem4.png"></img></div>
+    </div>
+        <div class="total"><p>Your number:</p><span id="total-amount">0</span></div>
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+  </body>
+</html>
