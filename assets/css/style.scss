@@ -79,16 +79,15 @@ span {
   flex-direction: row;
   position: absolute;
   left: 50%;
-  top: 30%;
+  top: 33%;
   transform: translate(-50%, -50%);
   @media screen and (max-width: 420px) {
-    top: 37%;
+    top: 40%;
   }
 }
 
 .given-number {
   font-size: 2.5em;
-  margin: 100px 30px 0px 0px;
 }
 
 .wins-losses {
@@ -108,10 +107,10 @@ span {
   flex-direction: row;
   position: absolute;
   left: 50%;
-  top: 50%;
+  top: 53%;
   transform: translate(-50%, -50%);
   @media screen and (max-width: 420px) {
-    top: 55%;
+    top: 60%;
   }
 }
 .images {
@@ -139,14 +138,17 @@ span {
   flex-direction: row;
   position: absolute;
   left: 50%;
-  top: 70%;
+  top: 75%;
   transform: translate(-50%, -50%);
   font-size: 1.5em;
+  @media screen and (max-width: 420px) {
+    top: 80%;
+  }
 }
 
 #totalNum {
   @media screen and (max-width: 420px) {
-    font-size: 3em;
+    font-size: 1em;
     margin-left: 30px;
   }
 }

@@ -57,14 +57,14 @@ span {
           flex-direction: row;
   position: absolute;
   left: 50%;
-  top: 30%;
+  top: 33%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
 }
 
 @media screen and (max-width: 420px) {
   .container {
-    top: 37%;
+    top: 40%;
   }
 }
 
@@ -94,14 +94,14 @@ span {
           flex-direction: row;
   position: absolute;
   left: 50%;
-  top: 50%;
+  top: 53%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
 }
 
 @media screen and (max-width: 420px) {
   .buttons {
-    top: 55%;
+    top: 60%;
   }
 }
 
@@ -137,15 +137,21 @@ span {
           flex-direction: row;
   position: absolute;
   left: 50%;
-  top: 70%;
+  top: 75%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   font-size: 1.5em;
 }
 
 @media screen and (max-width: 420px) {
-  #total-amount {
-    font-size: 3em;
+  .total {
+    top: 80%;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  #totalNum {
+    font-size: 1em;
     margin-left: 30px;
   }
 }
