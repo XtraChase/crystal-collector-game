@@ -1,9 +1,4 @@
 body {
-  //font-family: 'Roboto', sans-serif;
-  //font-family: "Luckiest Guy", cursive;
-  //font-family: "Bangers", cursive;
-  //font-family: "Gochi Hand", cursive;
-  //font-family: "Freckle Face", cursive;
   font-family: "Gaegu", cursive;
   font-weight: 800;
   text-align: center;
@@ -93,6 +88,7 @@ span {
 
 .given-number {
   font-size: 2.5em;
+  margin: 100px 30px 0px 0px;
 }
 
 .wins-losses {
@@ -148,7 +144,7 @@ span {
   font-size: 1.5em;
 }
 
-#total-amount {
+#totalNum {
   @media screen and (max-width: 420px) {
     font-size: 3em;
     margin-left: 30px;

@@ -9,7 +9,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="assets/css/reset.css" />
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
-    <link href="https://fonts.googleapis.com/css?family=Bangers|Freckle+Face|Gaegu|Gochi+Hand|Luckiest+Guy|Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Gaegu&display=swap" rel="stylesheet">
     <script
       src="https://code.jquery.com/jquery-latest.min.js"
       type="text/javascript"
@@ -23,19 +23,21 @@
       </p>
     </div>
     <div class="container">
-        <div class="given-number"><span>39</span></div>
+        <div class="given-number"><span></span></div>
         <div class="wins-losses"></div>
-            <div class="wins"><span>Wins: </span>
-            <div class="losses"><span>Losses: </span></div>
+            <div class="wins"><span>Wins: <div id="winAmount"><span>0</span></div></span>
+            <div class="losses"><span>Losses: <div id="loseAmount"><span>0</span></div></span></div>
         </div>
     </div>
     <div class="buttons">
-      <div class="button1"><img class="images" src="./assets/images/gem1.png"></img></div>
-      <div class="button2"><img class="images" src="./assets/images/gem2.png"></img></div>
-      <div class="button3"><img class="images" src="./assets/images/gem3.png"></img></div>
-      <div class="button4"><img class="images" src="./assets/images/gem4.png"></img></div>
+      <div class="button1 button" value=""><img class="images" src="./assets/images/gem1.png"></img></div>
+      <div class="button2 button" value=""><img class="images" src="./assets/images/gem2.png"></img></div>
+      <div class="button3 button" value=""><img class="images" src="./assets/images/gem3.png"></img></div>
+      <div class="button4 button" value=""><img class="images" src="./assets/images/gem4.png"></img></div>
     </div>
-        <div class="total"><p>Your number:</p><span id="total-amount">0</span></div>
+        <div class="total"><p>Your number:</p>
+          <div class="total-amount"><span id="totalNum"></span></div>
+        </div>
     <script type="text/javascript" src="assets/javascript/game.js"></script>
   </body>
 </html>
